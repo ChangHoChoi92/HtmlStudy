@@ -1,0 +1,32 @@
+h1 {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-left: 10rem;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.footer {
+    background-color: beige;
+    text-align: center;
+    margin: auto;
+    height: 10em;
+}
+
+.footer_img_sec {
+    float: left;
+}
+
+.footer_img {
+    width: 5rem;
+    height: 5rem;
+}
