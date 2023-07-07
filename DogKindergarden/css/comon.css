@@ -16,10 +16,11 @@ li {
 }
 
 .footer {
-    background-color: beige;
-    text-align: center;
+    background-color: #e7e7e7;
+    /* text-align: center; */
     margin: auto;
     height: 10em;
+
 }
 
 .footer_img_sec {
@@ -29,4 +30,11 @@ li {
 .footer_img {
     width: 5rem;
     height: 5rem;
+}
+
+.footer_desc p {
+    font-size: 0.7rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
 }
