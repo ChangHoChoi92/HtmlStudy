@@ -20,16 +20,34 @@ li {
     /* text-align: center; */
     margin: auto;
     height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.footer_inside {
+    display: flex;
 }
 
 .footer_img_sec {
-    float: left;
+
+    margin: 0 50px 0 0;
+
 }
 
 .footer_img {
-    width: 5rem;
-    height: 5rem;
+    width: auto;
+    height: 100px;
+}
+
+.footer_desc {
+
+    width: 100%;
+    line-height: 20px;
+    display: grid;
+    margin: 0 50px 0 0;
+
 }
 
 .footer_desc p {
@@ -37,4 +55,8 @@ li {
     font-family: 'Nanum Gothic', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.sns-wrap {
+    padding-top: 10px;
 }
