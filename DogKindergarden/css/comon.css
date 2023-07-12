@@ -1,5 +1,45 @@
+/* font */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bg_main {
+    background-color: #f2efe4;
+}
+
 h1 {
     float: left;
+    color: #47453c;
+    font-family: Pretendard-Bold, sans-serif;
+}
+
+h2 {
+    font-family: Pretendard-Bold, sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #47453c4a;
+}
+
+h3 {
+    font-family: Pretendard-Regular, sans-serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: Pretendard-Regular, sans-serif;
+    font-size: 14px;
 }
 
 ul {
@@ -14,6 +54,73 @@ li {
 .header {
     overflow: hidden;
 }
+
+.main_content {
+    /* background-color: skyblue; */
+    width: 1000px;
+    max-width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+.main_img_group {
+    width: 1000px;
+    margin-bottom: 100px;
+    /* display: block; */
+    /* margin: 0 auto; */
+}
+
+.main_img_group img {
+    width: 100%;
+    aspect-ratio: 500/200;
+    object-fit: cover;
+    opacity: 90%
+}
+
+.info_desc {
+    line-height: 20px;
+}
+
+.main_content_info {
+    margin-bottom: 100px;
+    width: 1000px;
+}
+
+.map_area img {
+    width: 100%;
+    aspect-ratio: 500/200;
+    object-fit: cover;
+}
+
+.map_group_info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-top: 1px solid #80808026; */
+    border-bottom: 1px solid #80808026;
+    width: 1000px;
+}
+
+.map_group_info img {
+    width: 14px;
+    height: 14px;
+    /* background-color: skyblue; */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+dt {
+    display: flex;
+}
+
+dd {
+    padding-left: 100px;
+}
+
+.map_group_info dl {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
 
 .footer {
     background-color: #e7e7e7;
@@ -31,14 +138,17 @@ li {
 }
 
 .footer_img_sec {
-
+    width: 150px;
     margin: 0 50px 0 0;
 
 }
 
 .footer_img {
-    width: auto;
-    height: 100px;
+    /* width: auto;
+    height: 100px; */
+    width: 100%;
+    aspect-ratio: 100/100;
+    object-fit: cover;
 }
 
 .footer_desc {
