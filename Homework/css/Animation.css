@@ -1,0 +1,17 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.bos_raccoon {
+    background-color: cadetblue;
+    animation: licatMoving 2s infinite alternate;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-size: contain;
+}
