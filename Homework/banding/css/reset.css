@@ -39,6 +39,8 @@ button:enabled {
 
 img {
     vertical-align: top;
+    padding: 0;
+    margin: 0;
 }
 
 ul,
