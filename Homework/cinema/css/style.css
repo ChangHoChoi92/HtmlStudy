@@ -1,0 +1,122 @@
+.bg-div {
+    background: #F2F2F2;
+    width: 1060px;
+    height: 1170px;
+    margin: 0 auto;
+    margin-top: 86px;
+    margin-bottom: 135px;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    /* max-width: calc(100% - 30px); */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    /* margin-top: 41px; */
+    padding-top: 41px;
+}
+
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+hr {
+    /* max-width: 650px; */
+    width: 650px;
+    border: 2px solid #bdbdbd;
+    /* margin: auto 205px; */
+    box-sizing: border-box;
+}
+
+nav {
+    /* margin-top: 28px; */
+    margin: 28px auto;
+    /* background-color: aqua; */
+}
+
+.menu-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.menu-wrap .menu-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.menu-list.checked button {
+    font-weight: 900;
+}
+
+.menu-list button:hover {
+    font-weight: 900;
+}
+
+.cinema-wrap {
+    width: 1003px;
+    height: 962px;
+    background: #ffffff;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cinema-card {
+    width: 220px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cinema-inner {
+    padding: 19px 20px;
+}
+
+.cinema-card img {
+    /* margin: 19px 20px 0 20px; */
+    width: 100%;
+    aspect-ratio: 180/250;
+    object-fit: cover;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cinema-card .cinema-title {
+    font-weight: 900;
+    margin: 11px 0;
+}
+
+.cinema-info {
+    font-size: 13px;
+}
+
+.cinema-info .type {
+    color: #828282;
+}
+
+.btn-group {
+    display: flex;
+    border-top: 1px solid #bdbddb;
+}
+
+.btn-go,
+.btn-view {
+    background-color: #f2f2f2;
+    width: 100%;
+    font-size: 14px;
+    height: 41px;
+}
