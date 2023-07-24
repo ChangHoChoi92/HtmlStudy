@@ -1,17 +1,16 @@
 .bg-div {
     background: #F2F2F2;
     width: 1060px;
-    height: 1170px;
+    /* height: 1170px; */
     margin: 0 auto;
     margin-top: 86px;
     margin-bottom: 135px;
     border: 2px solid #bdbdbd;
     border-radius: 15px;
-    /* max-width: calc(100% - 30px); */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
+    padding-bottom: 31px;
 }
 
 .header {
@@ -28,17 +27,13 @@
 }
 
 hr {
-    /* max-width: 650px; */
     width: 650px;
     border: 2px solid #bdbdbd;
-    /* margin: auto 205px; */
     box-sizing: border-box;
 }
 
 nav {
-    /* margin-top: 28px; */
     margin: 28px auto;
-    /* background-color: aqua; */
 }
 
 .menu-wrap {
@@ -63,7 +58,6 @@ nav {
 
 .cinema-wrap {
     width: 1003px;
-    height: 962px;
     background: #ffffff;
     border: 2px solid #bdbdbd;
     border-radius: 15px;
@@ -72,6 +66,9 @@ nav {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 23px;
+    padding-top: 26px;
+    padding-bottom: 30px;
 }
 
 .cinema-card {
@@ -95,13 +92,20 @@ nav {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.cinema-card .cinema-title {
+.cinema-inner .cinema-title {
     font-weight: 900;
     margin: 11px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
 }
 
 .cinema-info {
     font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .cinema-info .type {
@@ -119,4 +123,16 @@ nav {
     width: 100%;
     font-size: 14px;
     height: 41px;
+}
+
+.btn-go {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 0 10px;
+    border-right: 1px solid #bdbddb;
+}
+
+.btn-view {
+    border-radius: 0 0 10px 0;
 }
