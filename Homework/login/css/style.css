@@ -1,0 +1,124 @@
+/* font */
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SpoqaHanSansNeo', sans-serif;
+}
+
+.a11y-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.login-wrap {
+    width: 520px;
+    /* height: 712px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.header h1 {
+    font-size: 16px;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.login-inner {
+    margin: 25px 24px;
+}
+
+.login-inner h2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.login-inner .text-id,
+.text-pw {
+    width: 472px;
+    box-sizing: border-box;
+    padding: 15px 0 15px 16px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+}
+
+.login-inner .validate-font {
+    color: #F4492E;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 9px 4px;
+}
+
+.txt-hide {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    position: absolute;
+}
+
+.label-hold {
+    position: relative;
+}
+
+.label-hold:focus-visible {
+    border: 1px solid black;
+}
+
+.label-hold::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    vertical-align: -4px;
+    margin-left: 4px;
+    margin-right: 8px;
+    background: url(../images/check-box_gray.svg) 0 0/22px no-repeat;
+}
+
+.label-hold::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    left: 4px;
+    background: url(../images/check-box_blue.svg) 0 0/22px no-repeat;
+    margin-right: 8px;
+    opacity: 0;
+}
+
+.input-hold:checked+.label-hold::after {
+    opacity: 1;
+}
+
+.btn-login {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background: #2F80ED;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 20px 0;
+}
