@@ -34,12 +34,25 @@ body {
 
 .header {
     border-bottom: 1px solid #C4C4C4;
+    padding: 18px 0;
+    position: relative;
 }
 
 .header h1 {
     font-size: 16px;
     text-align: center;
-    margin: 18px 0;
+    /* margin: 18px 0; */
+}
+
+.header .btn-close {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/close.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 24px;
+    top: 22px;
 }
 
 .login-inner {
@@ -165,6 +178,11 @@ p {
     display: flex;
     /* align-items: center;
     justify-content: center; */
+}
+
+.sns-btn a img {
+    width: 28px;
+    height: 28px;
 }
 
 .google {
