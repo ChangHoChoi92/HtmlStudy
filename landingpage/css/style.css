@@ -1,0 +1,143 @@
+/* font */
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Reg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body-wrap {
+    font-family: 'SpoqaHanSansNeo-Reg', sans-serif;
+    /* background: #f2e9d8; */
+    width: 100%;
+
+}
+
+.header-width {
+    /* width: 100%; */
+    margin: 0 auto;
+    max-width: calc(100% - 360px);
+}
+
+.header-bg {
+    background: #f2e9d8;
+}
+
+.header-wrap {
+    height: 102px;
+    /* background: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-wrap .logo {
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-wrap ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-wrap ul li a {
+    font-weight: 400;
+}
+
+.btn-login {
+    width: 140px;
+    height: 50px;
+    background: #d97652;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header-width .sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 798px; */
+    flex-wrap: wrap;
+}
+
+.sec1-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 737px;
+}
+
+.sec1-text p {
+    width: 439px;
+    margin: 40px 0;
+}
+
+/* .sec1-img-wrap {
+    width: 415px;
+    width: 890px;
+} */
+
+/* .sec1-img-wrap img {
+    object-fit: cover;
+
+} */
+
+.main-wrap {
+    width: 100%;
+}
+
+.sec2 .sec2-bg {
+    background: #fff;
+}
+
+.sec2-bg .sec2-width {
+    margin: 0 auto;
+    max-width: calc(100% - 360px);
+}
+
+.sec2-cat1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0 120px 0;
+    flex-wrap: wrap;
+}
+
+.sec2-cat1 img {
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sec2-text h2 {
+    width: 510px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.sec2-h3 h3 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #d97652;
+    margin-bottom: 40px;
+}
+
+.sec2-h3 p {
+    width: 739px;
+    text-align: center;
+    font-weight: 700;
+}
