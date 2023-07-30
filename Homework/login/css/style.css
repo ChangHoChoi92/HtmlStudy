@@ -172,12 +172,11 @@ p {
 .sns-btn a {
     padding: 15px 0;
     color: #767676;
-    /* text-align: center; */
     font-weight: 500;
     display: block;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
 }
 
 .sns-btn a img {
