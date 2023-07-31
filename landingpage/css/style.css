@@ -29,6 +29,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: fixed; */
+    background: #f2e9d8;
 }
 
 .header-wrap .logo {
@@ -137,7 +139,35 @@
 }
 
 .sec2-h3 p {
-    width: 739px;
+    /* width: 739px; */
     text-align: center;
     font-weight: 700;
+}
+
+.sec2-width .sec2-img-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 88px 0;
+    flex-wrap: wrap;
+}
+
+.sec2-img-wrap img {
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    margin: 0 auto;
+    max-width: calc(100% - 360px);
+    font-weight: bold;
+}
+
+footer p {
+    width: 226px;
+    height: 70px;
+    font-size: 30px;
 }
