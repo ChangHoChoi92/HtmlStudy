@@ -164,6 +164,10 @@ footer {
     margin: 0 auto;
     max-width: calc(100% - 360px);
     font-weight: bold;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer p {
